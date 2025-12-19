@@ -1,0 +1,27 @@
+Dec 17 22:53:46.524 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 17 22:53:46.524 HYPERVISOR: Started on IP = localhost, TCP port = 60520.
+Dec 17 22:53:47.015 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 17 22:53:47.016 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\mosta\GNS3\projects\Networks Lab\project-files\dynamips 
+Dec 17 22:53:47.016 GENERAL: working_dir=C:\Users\mosta\GNS3\projects\Networks Lab\project-files\dynamips
+Dec 17 22:53:47.016 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\mosta\GNS3\projects\Networks Lab\project-files\dynamips\9fe91a4a-774d-43d6-9c4b-36285a8642da 
+Dec 17 22:53:47.018 GENERAL: working_dir=C:\Users\mosta\GNS3\projects\Networks Lab\project-files\dynamips\9fe91a4a-774d-43d6-9c4b-36285a8642da
+Dec 17 22:53:47.019 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Dec 17 22:53:47.020 VM: VM R2 created.
+Dec 17 22:53:47.021 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Dec 17 22:53:47.021 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Dec 17 22:53:47.022 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Dec 17 22:53:47.022 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Dec 17 22:53:47.022 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 17 22:53:47.022 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60c09aa0 
+Dec 17 22:53:47.025 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/mosta/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Dec 17 22:53:47.025 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c202.635c.0000 
+Dec 17 22:53:47.026 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Dec 17 22:53:47.026 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 17 22:53:47.026 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Dec 17 22:53:47.027 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 17 22:53:47.027 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+Dec 17 22:53:47.028 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 17 22:53:47.028 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-1T 
+Dec 17 22:53:47.340 HYPERVISOR: exec_cmd: nio create_udp udp-2faf7486-83bc-447b-91c5-12fd45662800 10004 127.0.0.1 10005 
+Dec 17 22:53:47.627 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-2faf7486-83bc-447b-91c5-12fd45662800 
+Dec 17 22:53:47.628 HYPERVISOR: exec_cmd: vm get_status R2 

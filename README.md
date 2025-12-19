@@ -37,8 +37,3 @@
 **Notes & Maintenance**
 - Keep backups of the `configs` folder for each device if you plan to modify startup configs.
 - VPCS startup scripts can be edited to set IPs and routes automatically when VPCS starts.
-
-**Author & Contact**
-- **Maintainer:** Project owner (local workspace)
-
-If you want, I can also add a short script or checklist for recovering device configs or automating VPCS startup commands.
